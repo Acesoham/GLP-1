@@ -1,8 +1,11 @@
 import React from 'react';
+import bgImage from '../assets/GoOrganicMarch2022-9977.JPG';
 
 const Testimonials = () => {
   return (
     <section className="testimonials reveal">
+      <img src={bgImage} alt="Testimonials Background" className="testimonials-bg-img" />
+      <div className="testimonials-bg-overlay"></div>
       <div className="experts-inner">
         <div className="label">Client Experiences</div>
         <h2 className="big">Real People. Real Results.<br /><em style={{ color: 'var(--teal)' }}>Real Food.</em></h2>

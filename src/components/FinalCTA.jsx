@@ -9,7 +9,7 @@ const FinalCTA = () => {
       <p className="body-text" style={{ maxWidth: '520px', margin: '0 auto 48px', color: 'var(--grey)', textAlign: 'center' }}>Your medication is doing its part. Our meal plans do the rest. Fresh food, expert-designed, delivered to your door across the UAE every single day.</p>
       <div className="final-btns">
         <a href="#products" className="btn-primary">View All Mounjuro / Ozempic Plans →</a>
-        <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="btn-secondary">WhatsApp an Expert</a>
+        <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="btn-primary">WhatsApp an Expert</a>
       </div>
       <div className="trust-row">
         <div className="trust-item">🔬 HACCP Certified Kitchen</div>

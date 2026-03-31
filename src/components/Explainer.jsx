@@ -1,8 +1,10 @@
 import React from 'react';
 
+
 const Explainer = () => {
   return (
     <section className="explainer reveal">
+     
       <div className="explainer-grid">
         <div>
           <div className="label">Why Nutrition is Critical</div>

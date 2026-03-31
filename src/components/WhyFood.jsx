@@ -1,11 +1,14 @@
 import React from 'react';
 
+import bgImage2 from '../assets/GOOrganicME-1978.jpg';
 const WhyFood = () => {
   return (
     <section className="section why-food reveal">
+      <img src={bgImage2} alt="Smoothies Background" className="wf-bg-img" />
+      <div className="wf-bg-overlay"></div>
       <div className="why-food-inner">
-        <div className="label">The GoOrganic Difference</div>
-        <h2 className="big">Why Our Mounjuro / Ozempic Plans Are<br /><em>Not Like Any Other Meal Plan.</em></h2>
+        <div className="label wf-label">The GoOrganic Difference</div>
+        <h2 className="big wf-title-main">Why Our Mounjuro / Ozempic Plans Are<br /><em>Not Like Any Other Meal Plan.</em></h2>
         <div className="wf-grid">
           <div className="wf-item">
             <div className="wf-icon">🧬</div>
