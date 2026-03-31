@@ -29,6 +29,10 @@ const Audience = () => {
             <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="aud-btn">Book a Free Consultation →</a>
           </div>
         </div>
+        <div className="section-btns">
+          <a href="https://www.goorganic.me/categories/ozempic-mounjaro" className="btn-primary">View All Mounjuro / Ozempic Plans →</a>
+          <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="btn-secondary">Talk to an Expert</a>
+        </div>
       </div>
     </section>
   );

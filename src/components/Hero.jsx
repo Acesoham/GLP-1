@@ -14,7 +14,7 @@ const Hero = () => {
       </h1>
       <p className="hero-sub">Mounjuro / Ozempic medications reduce your appetite dramatically — but they don't choose what you eat. <strong>Without the right nutrition, you risk losing muscle, not fat.</strong> Our expert-designed meal plans ensure every bite counts.</p>
       <div className="hero-btns">
-        <a href="#products" className="btn-primary">View All Meal Plans →</a>
+        <a href="https://www.goorganic.me/categories/ozempic-mounjaro" className="btn-primary">View All Meal Plans →</a>
         <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="btn-secondary">Talk to an Expert</a>
       </div>
       <div className="hero-stats">
