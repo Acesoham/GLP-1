@@ -1,5 +1,5 @@
 import React from 'react';
-import bgImage from '../assets/GoOrganicMarch2022-9977.JPG';
+import bgImage from '../assets/GoOrganicMarch2022-9977.jpg';
 
 const Testimonials = () => {
   return (
