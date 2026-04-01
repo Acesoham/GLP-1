@@ -25,13 +25,13 @@ function App() {
         }
       });
     }, { threshold: 0.08 });
-    
+
     document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
     // Hide sticky near products observer
     const sticky = document.querySelector('.sticky');
     const productsEl = document.getElementById('products');
-    
+
     if (sticky && productsEl) {
       const so = new IntersectionObserver(entries => {
         entries.forEach(e => {
@@ -40,7 +40,7 @@ function App() {
         });
       }, { threshold: 0.3 });
       so.observe(productsEl);
-      
+
       // Cleanup
       return () => {
         so.disconnect();
@@ -58,41 +58,40 @@ function App() {
       <Nav />
       {/* ═══ HERO ═══ */}
       <Hero />
-      
+
       {/* ═══ AUDIENCE ═══ */}
       <Audience />
-      
+
       {/* ═══ EXPLAINER + TIMELINE ═══ */}
       <Explainer />
-      
+
       {/* ═══ WARNING BAND ═══ */}
       <WarningBand />
-      
+
       {/* ═══ PRODUCTS ═══ */}
       <Products />
-      
+
       {/* ═══ WHY FOOD MATTERS ═══ */}
       <WhyFood />
-      
+
       {/* ═══ QUOTE ═══ */}
       <QuoteBand />
-      
+
       {/* ═══ EXPERTS ═══ */}
       <Experts />
-      
+
       {/* ═══ TESTIMONIALS ═══ */}
       <Testimonials />
-      
+
       {/* ═══ FAQ ═══ */}
       <FAQ />
-      
+
       {/* ═══ FINAL CTA ═══ */}
       <FinalCTA />
-      
+
       {/* STICKY */}
-      <a href="https://wa.me/+971525264045" className="nav-cta">Talk To Us</a>
-      <a href="" className="sticky">Talk To Us→</a>
-      
+      <a href="https://wa.me/+971525264045" className="sticky">TALK TO US →</a>
+
       {/* FOOTER */}
       <Footer />
     </>

@@ -22,7 +22,7 @@ const Products = () => {
               <img src={fiveDayImg} alt="5day" className="pv-img" />
               <div className="pv-img-overlay"></div>
               <div className="pv-inner">
-              
+
               </div>
             </div>
             <div className="product-info">
@@ -52,7 +52,7 @@ const Products = () => {
               <img src={ozempic20Img} alt="20-Day Extended Meal Plan" className="pv-img" />
               <div className="pv-img-overlay"></div>
               <div className="pv-inner">
-                
+
               </div>
             </div>
             <div className="product-info">
@@ -82,7 +82,7 @@ const Products = () => {
               <img src={postOzempicImg} alt="40-Day Post-Injection Reset" className="pv-img" />
               <div className="pv-img-overlay"></div>
               <div className="pv-inner">
-              
+
               </div>
             </div>
             <div className="product-info">
@@ -109,8 +109,9 @@ const Products = () => {
 
         </div>
         <div className="section-btns">
-          <a href="https://www.goorganic.me/categories/ozempic-mounjaro" className="btn-primary">View All Mounjuro / Ozempic Plans →</a>
-          <a href="https://wa.me/+971556250664" target="_blank" rel="noopener noreferrer" className="btn-secondary">Talk to an Expert</a>
+          <a href="https://wa.me/+971525264045" className="btn-primary">TALK TO US →</a>
+        <a href="https://www.goorganic.me/products/powerful-post-peptide-exit-protocol-1" className="btn-secondary">VIEW ALL GLP-1 PLANS →</a>
+        
         </div>
       </div>
     </section>
