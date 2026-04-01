@@ -5,7 +5,7 @@ const Nav = () => {
     <nav>
       <div className="nav-logo">Go<span>Organic</span></div>
       <div className="nav-badge">Mounjuro / Ozempic Nutrition Support</div>
-      <a href="https://www.goorganic.me/categories/ozempic-mounjaro" className="nav-cta">See All Plans</a>
+      <a href="https://wa.me/+971556250664" className="nav-cta">Talk To Us</a>
     </nav>
   );
 };
