@@ -90,7 +90,8 @@ function App() {
       <FinalCTA />
       
       {/* STICKY */}
-      <a href="https://www.goorganic.me/categories/ozempic-mounjaro" className="sticky">View GLP-1 Plans →</a>
+      <a href="https://wa.me/+971525264045" className="nav-cta">Talk To Us</a>
+      <a href="" className="sticky">Talk To Us→</a>
       
       {/* FOOTER */}
       <Footer />
