@@ -90,8 +90,7 @@ function App() {
       <FinalCTA />
 
       {/* STICKY */}
-      <a href="https://wa.me/+971525264045" className="sticky">TALK TO US →</a>
-
+     
       {/* FOOTER */}
       <Footer />
     </>
