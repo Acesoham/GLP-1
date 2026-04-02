@@ -42,14 +42,18 @@ nav {
   left: 0;
   right: 0;
   z-index: 200;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
   padding: 0 60px;
   height: 100px;
   background: rgba(255, 255, 255, 0.97);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
+}
+
+.nav-spacer {
+  display: block;
 }
 
 .nav-logo {
@@ -242,23 +246,23 @@ nav {
 
 .btn-secondary {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
+  background: var(--teal);
   color: #ffffff;
   padding: 28px 72px;
   border-radius: 3px;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 800;
   text-decoration: none;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: none;
   transition: all .3s;
-  backdrop-filter: blur(4px);
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
+  box-shadow: 0 12px 48px rgba(57, 181, 74, 0.3);
 }
 
 .btn-secondary:hover {
-  border-color: var(--teal);
-  background: var(--teal);
-  color: white;
+  background: var(--teal-lt);
+  transform: translateY(-3px);
+  box-shadow: 0 16px 56px rgba(57, 181, 74, 0.5);
 }
 
 .section-btns {
@@ -1551,10 +1555,23 @@ footer p {
 /* ── MOBILE ── */
 @media(max-width:960px) {
   nav {
-    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
   }
 
   .nav-badge {
+    display: flex;
+    font-size: 14px;
+    padding: 8px 16px;
+    letter-spacing: 0px;
+  }
+
+  .nav-spacer {
     display: none;
   }
 

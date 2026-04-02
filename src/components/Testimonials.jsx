@@ -33,8 +33,8 @@ const Testimonials = () => {
           </div>
         </div>
         <div className="section-btns">
-          <a href="" className="btn-primary">TALK TO US →</a>
-         
+          <a href="https://wa.me/+971525264045" className="btn-primary">TALK TO US →</a>
+          <a href="https://www.goorganic.me/products/powerful-post-peptide-exit-protocol-1" className="btn-secondary">VIEW ALL GLP-1 PLANS →</a>
         </div>
       </div>
     </section>
