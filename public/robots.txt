@@ -1,0 +1,13 @@
+# GoOrganic GLP-1 Landing Page — Robots.txt
+# https://www.goorganic.me
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /src/
+
+# Sitemap
+Sitemap: https://www.goorganic.me/sitemap.xml
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1
