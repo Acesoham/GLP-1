@@ -1,74 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-  
-  <!-- Main Landing Page -->
-  <url>
-    <loc>https://www.goorganic.me/</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-    <image:image>
-      <image:loc>https://www.goorganic.me/assets/GoOrganicLogo.jpeg</image:loc>
-      <image:title>GoOrganic — GLP-1 Ozempic &amp; Mounjaro Meal Plans UAE</image:title>
-      <image:caption>GoOrganic official logo — organic meal delivery and GLP-1 nutrition support for Ozempic, Wegovy and Mounjaro patients in Dubai, Abu Dhabi and the UAE.</image:caption>
-    </image:image>
-  </url>
 
-  <!-- Products / Meal Plans Section -->
-  <url>
-    <loc>https://www.goorganic.me/#products</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- 5-Day GLP-1 Meal Plan (Shopify product page) -->
-  <url>
-    <loc>https://www.goorganic.me/categories/5-day-glp-1-high-protein-weightloss-meal-plan</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+<url>
+<loc>https://goorganicglp.vercel.app/</loc>
+<priority>1.0</priority>
+<changefreq>weekly</changefreq>
+</url>
 
-  <!-- 20-Day GLP-1 Meal Plan (Shopify product page) -->
-  <url>
-    <loc>https://www.goorganic.me/categories/20-day-glp-1-high-protein-weightloss-meal-plan</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+<url>
+<loc>https://goorganicglp.vercel.app/#products</loc>
+<priority>0.9</priority>
+<changefreq>weekly</changefreq>
+</url>
 
-  <!-- 40-Day Post-Injection Reset (Shopify product page) -->
-  <url>
-    <loc>https://www.goorganic.me/categories/40-day-glp-1-high-protein-weightloss-meal-plan</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
+<url>
+<loc>https://goorganicglp.vercel.app/categories/5-day-glp-1-high-protein-weightloss-meal-plan</loc>
+<priority>0.85</priority>
+<changefreq>monthly</changefreq>
+</url>
 
-  <!-- Post Peptide Exit Protocol -->
-  <url>
-    <loc>https://www.goorganic.me/products/powerful-post-peptide-exit-protocol-1</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
+<url>
+<loc>https://goorganicglp.vercel.app/categories/20-day-glp-1-high-protein-weightloss-meal-plan</loc>
+<priority>0.85</priority>
+<changefreq>monthly</changefreq>
+</url>
 
-  <!-- Privacy Policy -->
-  <url>
-    <loc>https://www.goorganic.me/policies/privacy-policy</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-
-  <!-- Terms & Conditions -->
-  <url>
-    <loc>https://www.goorganic.me/policies/terms-conditions</loc>
-    <lastmod>2026-04-27</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<url>
+<loc>https://goorganicglp.vercel.app/categories/40-day-glp-1-high-protein-weightloss-meal-plan</loc>
+<priority>0.85</priority>
+<changefreq>monthly</changefreq>
+</url>
 
 </urlset>
